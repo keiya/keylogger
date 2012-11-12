@@ -1,0 +1,15 @@
+﻿2012/10/22 2:56:37 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\Users\Keiya\Documents\mousetrap\m0u5etrap.vcxproj" (Build ターゲット)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _WINDOWS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt klogger01.cpp
+         klogger01.cpp
+     1>klogger01.cpp(141): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(115) : 'strcat' の宣言を確認してください。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Keiya\Documents\mousetrap\x64\Debug\m0u5etrap.exe" /INCREMENTAL /NOLOGO ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Keiya\Documents\mousetrap\x64\Debug\m0u5etrap.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Keiya\Documents\mousetrap\x64\Debug\m0u5etrap.lib" /MACHINE:X64 x64\Debug\klogger01.obj
+         m0u5etrap.vcxproj -> C:\Users\Keiya\Documents\mousetrap\x64\Debug\m0u5etrap.exe
+     1>プロジェクト "C:\Users\Keiya\Documents\mousetrap\m0u5etrap.vcxproj" (Build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:01.51
